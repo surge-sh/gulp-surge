@@ -1,21 +1,16 @@
-var fs = require('fs')
-var chai = require('chai')
-var es = require('event-stream')
-var gutil = require('gulp-util')
+/* global it, describe */
+
 var surge = require('../')
-var expect = chai.expect
+var should = require('should')
 
 describe('gulp-surge', function () {
-  this.timeout(10000)
-
   describe('basic', function () {
-
     it('should be cool', function (done) {
       done()
     })
-
-    it('should publish a project', function (done) {
-      
+    it('should exist', function (done) {
+      should(surge).exist
+      done()
     })
   })
 })
