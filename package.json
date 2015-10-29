@@ -1,8 +1,14 @@
 {
   "name": "gulp-surge",
   "version": "0.1.0",
-  "description": "",
+  "description": "Easily deploy to Surge with Gulp.",
   "repository": "https://github.com/surge-sh/gulp-surge",
+  "homepage": "https://surge.sh",
+  "author": "Kenneth Ormandy <kenneth@surge.sh> (https://surge.sh)",
+  "contributors": [
+    "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+    "Brock Whitten   <brock@surge.sh>   (http://sintaxi.com)"
+  ],
   "dependencies": {
     "gulp-util": "3.0.2",
     "surge": "0.17.1"
