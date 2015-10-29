@@ -2,7 +2,7 @@
   "name": "gulp-surge",
   "version": "0.1.0",
   "description": "",
-  "repository": "https://github.com/chloi/gulp-surge",
+  "repository": "https://github.com/surge-sh/gulp-surge",
   "dependencies": {
     "gulp-util": "3.0.2",
     "surge": "0.17.1"
