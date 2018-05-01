@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "gulp-util": "3.0.2",
-    "surge": "0.17.1"
+    "surge": "0.19.0"
   },
   "devDependencies": {
     "chai": "1.10.0",
