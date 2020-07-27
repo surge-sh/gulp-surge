@@ -11,10 +11,10 @@
     "Brock Whitten   <brock@surge.sh>   (http://sintaxi.com)"
   ],
   "dependencies": {
-    "surge": "^0.20.1"
+    "surge": "^0.21.6"
   },
   "devDependencies": {
-    "gulp-mocha": "4.0.0",
+    "gulp-mocha": "^7.0.2",
     "gulp-standard": "8.0.2",
     "should": "7.1.1"
   },
