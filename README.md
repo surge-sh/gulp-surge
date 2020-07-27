@@ -13,14 +13,14 @@ npm install --save-dev gulp-surge
 Then, require it in your Gulpfile and add it as a task:
 
 ```js
-var surge = require('gulp-surge')
+const surge = require('gulp-surge')
 
-gulp.task('deploy', [], function () {
+const deploy = () => {
   return surge({
     project: './build',         // Path to your static build directory
     domain: 'example.surge.sh'  // Your domain or Surge subdomain
   })
-})
+}
 ```
 
 ## License
